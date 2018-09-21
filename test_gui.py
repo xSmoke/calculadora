@@ -10,8 +10,8 @@ def test_xyz():
 
 def test_usandostring():
 
-	assert soma('1', '2') == 3
+	assert soma('-5', '-10') == 15
 	assert soma('xyz',1) == None
 
 def test_menos():
-	assert menos(2,2) == 0
+	assert menos(5,5) == 0
